@@ -1,0 +1,498 @@
+*{ 
+    font-size: 16px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding:0;
+    margin:0;
+}
+
+
+h2, h3, h4, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+h1{
+    font-size: 3em;
+    font-weight:normal;
+}
+
+h3{
+    color:#D7B65C;
+    font-size: 2.5em;
+}
+
+/* main header **/
+.header{
+    background:#999999;
+    height: 12em;
+    width:100%
+}
+    
+.header_top{
+    height:2.5rem;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+    
+.header_top_text{
+    display:inline-block;
+    margin: 1rem 2rem 0 1.5rem;
+}
+    
+.social_media{
+    display:inline-block;
+    margin: .3rem 2rem 0 0;
+    height: 2em;
+    background-color: #FFFFFF;
+    float:right; 
+}
+
+
+.header_icon{
+    display:inline-block;
+    width: 20em;
+}
+    
+.header_icon img{
+    width: 20em;
+    height: auto;
+    margin-left: .5rem;  
+}
+
+.hamburger_bars_wrapper{
+    display:none;
+}
+
+.hamburger_bars{
+    display:none;
+}
+
+.hamburger_navigation li, .hamburger_navigation{
+    display:none;
+}
+    
+.home_header_nav{
+    display:inline-block;
+    float: right;
+    margin-top:5.4rem;
+    margin-right:1.5em;
+}
+    
+.home_header_nav li{
+    display:inline-block;
+    margin: 0 .7rem;
+    font-size: 1rem;
+}
+
+.home_header_nav a{
+    text-decoration:none;
+    color:	#FFFFFF;
+}
+
+.currentPage{
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.navLinks a:hover{ /*hover color ******/ 
+    color:#3498DB;
+    cursor: pointer;
+}
+
+.header_top img:hover{
+    background-color:#3498DB;
+    cursor:pointer;
+}
+
+    
+.construction img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width:375px;
+    margin-top:5rem;
+}
+
+/**************************************** homepage *****************************/
+.welcome_message{
+    height:20rem;
+    width:100%;
+    background:#D9D9D9;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.vertical_welcome_message {
+    flex-direction:column;
+    flex-wrap: wrap; 
+}
+
+.welcome_message h1 { /*** negative margins for gold ******/
+    text-align: center;
+    border-bottom: 4px solid#b89f57;
+    padding: 1rem 5rem 1rem 5rem;
+    margin: .1rem -1rem 0 -1rem;
+}
+
+.welcome_message h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top:12px;
+}
+
+
+/*homepage*/
+.main_area_wrapper{
+    height:50rem;
+}
+
+.left_main_area{
+    float:left;
+    width:50%;
+    height:40rem;
+    overflow: hidden;
+    display: table;
+}
+
+.imageContainter{
+    text-align: center;
+    vertical-align: top;
+    display: table-cell;
+}
+
+.left_main_area img{
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    max-height: 650px;
+    width:100%
+}
+
+.right_main_area{
+    float:right;
+    width:50%;
+    height:auto;
+}
+
+.right_main_area_text{
+    padding: 4rem;
+}
+
+.right_main_area_text p{
+    line-height: 2;
+}
+
+.aboutButtonWrapper{
+    background: #b89f57;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 9rem;
+    position: relative;
+   
+}
+
+.aboutButton{
+    text-decoration:none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+}
+
+.aboutButton:hover{
+    cursor:pointer;
+}
+
+.aboutButtonWrapper:hover{
+    background-color:#3498DB;
+    cursor:pointer;
+}
+
+.lower_social_media{
+    visibility: hidden;
+    display:none;
+}
+/***************************************** end of homepage ****************************/
+
+
+
+/*footer*/
+.footer{
+    margin: 7em 0 0 0;
+    background-color:#D9D9D9;
+    height:12em;
+    text-align: center;
+}
+
+.footer_text{
+    color: #FFFFFF;
+    letter-spacing: .7rem;  
+    padding-top: 85px;
+}
+
+
+
+
+@media only screen and (max-device-width : 1080px) {
+    .home_header_nav{
+        margin-right: 30px;
+    }   
+    
+    .home_header_nav li{
+        font-size: .9rem;
+    }   
+}
+
+
+@media only screen and (max-device-width : 1000px) {
+    .home_header_nav{
+        visibility: hidden;
+        display:none;
+        float:none;
+        margin-top:0m;
+        margin-right:0;
+    }
+
+    .social_media{
+        margin: .3rem 1.4rem 0 0;
+    }
+    
+    .hamburger_bars_wrapper{
+        display:inline-block;
+        float:right;
+        margin: 107px 25px 0 0;
+    }
+    
+    .hamburger_bars{
+        display:block;
+        width: 37px;
+        height: 4px;
+        background-color: black;
+        margin: 3px 0;
+        border-radius:25px;
+    }
+
+    .hamburger_bars_hover:hover{
+        background-color:#3498DB;
+        cursor:pointer;
+    }
+
+    .vertical_welcome_message{
+        z-index:-1;
+    }
+
+    .welcome_message{
+        position:relative;
+    }
+    
+    .hamburger_navigation{ /****************** hamburger menu box ***/
+        display: none;
+        background: #999999; 
+        width:250px;
+        height:280px;
+        position: absolute;
+        right: 24px;
+        top: 0px;
+        z-index: 10;
+        box-shadow: 10px 10px 9px black;
+        border: solid 1.7px #000000;
+        cursor: pointer;
+    }
+
+    .hamburger_navigation ul{
+        text-align: center;
+    }
+
+    .hamburger_navigation li{
+        display:block;
+        font-size: 1rem;
+        border-bottom: solid 1px #000000;
+        padding:10px 0 10px 0; 
+        cursor: pointer;
+    }
+
+    .hamburger_navigation a{
+        text-decoration:none;
+        color:	#FFFFFF;
+        cursor: pointer;
+    }
+
+    .hamburger_navigation a:hover{ /*hover color ******/ 
+        color:#3498DB;
+        cursor: pointer;
+    }
+
+    .main_area_wrapper{
+        height:55rem;
+    }
+
+    .right_main_area_text{
+        padding: 2rem;
+    }
+
+    .right_main_area_text h3{
+        margin:1.5rem 0  1.5rem  0;
+    }
+
+    .footer_text{
+        padding-top: 90px;  
+    }
+
+    .welcome_message h1{
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+}
+
+@media only screen and (max-device-width : 900px) {
+    .welcome_message h1 {
+    padding: 1rem 2rem 1rem 2rem;
+    }
+}
+
+
+@media only screen and (max-device-width : 768px) {
+    .header_icon img{
+        width: 15rem;
+        height: auto;
+        margin:0;
+    }
+
+    .header{
+        height: 10rem;
+    }
+
+    .header_top_text{
+        margin: 1rem .7rem 0 .7rem;
+    }
+
+    .header_top img{
+        margin: .3rem .7rem 0 0;
+        height: 2em;
+    }
+
+    .hamburger_bars_wrapper{
+        margin: 75px 25px 0 0;
+    }
+
+    .left_main_area{
+        width:100%;
+        height:40rem;
+    }
+    
+    .right_main_area{
+        width:100%
+    }
+    
+    .main_area_wrapper{
+        height:75rem;
+    }
+
+
+    .welcome_message h1 {
+        text-align: center;
+        padding: 1rem 0 1rem 0;
+        margin: auto;
+        width:80%;
+    }
+
+}
+
+
+@media only screen and (max-device-width : 600px) {
+    .main_area_wrapper{
+        height:70rem;
+    }
+
+    .footer_text{
+        padding-right: 10px; 
+        padding-left: 10px; 
+    }
+
+    .left_main_area{
+        height:15rem;
+    }
+
+    .imageContainter{
+        height:15rem;
+    }
+}
+
+@media only screen and (max-device-width : 500px) {
+    .social_media{
+        visibility: hidden;
+    }
+
+    .main_area_wrapper{
+        height:75rem;
+    }
+    
+    
+    .footer_text{
+        padding-top: 1em;  
+    }
+    
+
+    .lower_social_media{
+        height: 2em;
+        margin-top: 1.5em; 
+        padding: 0 2em 0 2em;
+        visibility: visible;
+        display:inline-block;
+    }
+
+    .lower_social_media:hover{
+        background-color:#3498DB
+    }
+}
+
+
+@media only screen and (max-device-width : 435px) {
+    .main_area_wrapper{
+        height:80rem;
+    }
+    
+    .header_icon{
+        width: auto;
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .hamburger_bars_wrapper{
+      position: absolute;
+      right:-12px
+    }
+
+    .hamburger_menu{
+        right:15px;
+    }
+
+    .hamburger_navigation{ /*************************************** hamburger menu box ***/
+        right: 12px;
+    }
+
+    .construction img{ 
+        min-width:300px;
+    }
+
+
+}
+
+
+@media only screen and (max-device-width : 330px) {
+    .header_top_text:nth-child(2){
+        display:none;
+    }
+
+}
+
+
+
