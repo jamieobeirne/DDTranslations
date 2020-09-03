@@ -6,7 +6,7 @@
 }
 
 
-h2, h3, h4, p{
+h2, h3, h4, p, li{
     font-family: Arial, Helvetica, sans-serif;
     font-weight:normal;
 }
@@ -105,15 +105,13 @@ h3{
     cursor:pointer;
 }
 
-    
 .construction img{ 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    min-width:375px;
-    margin-top:5rem;
+    width: 80%;
 }
+
 
 /**************************************** homepage *****************************/
 .welcome_message{
@@ -145,9 +143,8 @@ h3{
 }
 
 
-/*homepage*/
 .main_area_wrapper{
-    height:50rem;
+    height:60rem;
 }
 
 .left_main_area{
@@ -168,7 +165,7 @@ h3{
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
-    max-height: 650px;
+    max-height: 1000px;
     width:100%
 }
 
@@ -183,6 +180,11 @@ h3{
 }
 
 .right_main_area_text p{
+    line-height: 2;
+}
+
+.homepageList{
+    padding-left:3rem;
     line-height: 2;
 }
 
@@ -391,7 +393,7 @@ h3{
     }
     
     .main_area_wrapper{
-        height:75rem;
+        height:100rem;
     }
 
 
@@ -407,7 +409,7 @@ h3{
 
 @media only screen and (max-device-width : 600px) {
     .main_area_wrapper{
-        height:70rem;
+        height:95rem;
     }
 
     .footer_text{
@@ -430,7 +432,7 @@ h3{
     }
 
     .main_area_wrapper{
-        height:75rem;
+        height:8    5rem;
     }
     
     
@@ -455,7 +457,7 @@ h3{
 
 @media only screen and (max-device-width : 435px) {
     .main_area_wrapper{
-        height:80rem;
+        height:85rem;
     }
     
     .header_icon{
@@ -480,7 +482,7 @@ h3{
     }
 
     .construction img{ 
-        min-width:300px;
+        min-width:315px;
     }
 
 
