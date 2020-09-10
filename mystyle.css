@@ -20,7 +20,7 @@ h3{
     font-size: 2.5em;
 }
 
-/* main header **/
+/* main header ********************************/
 .header{
     background:#999999;
     height: 12em;
@@ -46,7 +46,6 @@ h3{
     background-color: #FFFFFF;
     float:right; 
 }
-
 
 .header_icon{
     display:inline-block;
@@ -94,7 +93,6 @@ h3{
     color: #000000;
 }
 
-
 .navLinks a:hover{ /*hover color ******/ 
     color:#3498DB;
     cursor: pointer;
@@ -112,16 +110,29 @@ h3{
     width: 80%;
 }
 
+/*footer**************************/
+.footer{
+    margin: 7em 0 0 0;
+    background-color:#D9D9D9;
+    height:12em;
+    text-align: center;
+}
 
-/**************************************** homepage *****************************/
-.welcome_message{
+.footer_text{
+    color: #FFFFFF;
+    letter-spacing: .7rem;  
+    padding-top: 85px;
+}
+
+
+/*******   homepage *******************/
+.headerOfBodyHome{
     height:20rem;
     width:100%;
     background:#D9D9D9;
     display: flex;
     align-items: center; 
     justify-content: center;
-    
 }
 
 .vertical_welcome_message {
@@ -129,19 +140,18 @@ h3{
     flex-wrap: wrap; 
 }
 
-.welcome_message h1 { /*** negative margins for gold ******/
+.headerOfBodyHome h1 { /*** negative margins for gold ******/
     text-align: center;
     border-bottom: 4px solid#b89f57;
     padding: 1rem 5rem 1rem 5rem;
     margin: .1rem -1rem 0 -1rem;
 }
 
-.welcome_message h2 {
+.headerOfBodyHome h2 {
     font-size: 1.3rem;
     text-align: center;
     padding-top:12px;
 }
-
 
 .main_area_wrapper{
     height:60rem;
@@ -183,10 +193,20 @@ h3{
     line-height: 2;
 }
 
-.homepageList{
-    padding-left:3rem;
+.homepageList, .homepageList2{
+    padding-left:4rem;
     line-height: 2;
 }
+
+
+.homepageList li, .homepageList2 li{
+    list-style: none;
+    background: url("images/check24.png") no-repeat left center; /*sets check mark for ul list bullets */ 
+    vertical-align: middle;
+    padding: 0 0 0 2rem;
+    margin:0;
+}
+
 
 .aboutButtonWrapper{
     background: #b89f57;
@@ -194,7 +214,6 @@ h3{
     height: 3rem;
     width: 9rem;
     position: relative;
-   
 }
 
 .aboutButton{
@@ -220,25 +239,210 @@ h3{
     visibility: hidden;
     display:none;
 }
-/***************************************** end of homepage ****************************/
+/****** end of homepage *************************/
 
 
+/****** testimonial page ************************/
+.testimonalsCardBody{
+    margin:0;
+    padding:0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
-/*footer*/
-.footer{
-    margin: 7em 0 0 0;
-    background-color:#D9D9D9;
-    height:12em;
+.containerQuote{
+    position:relative;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 1100px;
+    flex-wrap:wrap;
+    margin:4rem;
+}
+
+.boxQuote{
+    position:relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 420px;
+    height:520px;
+    margin:20px;
+    background:#D9D9D9;
+    padding:2rem;
+    line-height: 1.5rem;
+}
+
+.contentQuote{
+    text-align:center;
+    padding 20px;
+}
+
+.quotationImage{
+    width:6rem;
+}
+
+.contentQuote h4{
+    margin-top:2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.qouteNames{
+    font-style: italic;
+}
+
+
+/****** contact form page ********************************//****** contact form page ********************************/
+.mainContainer{
+    display: flex;
+}
+
+.contactMessageWrapper{
+    display:inline;
+    width:50%
+}
+.contactMessage{
+    margin: 7rem 2rem 1rem 7rem;
+    line-height: 1.5rem;s
+}
+
+.contactMessage p{
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.socialMediaContactContainer{
     text-align: center;
 }
 
-.footer_text{
-    color: #FFFFFF;
-    letter-spacing: .7rem;  
-    padding-top: 85px;
+.social_mediaContactPage{
+    width:1.5rem;
+    margin: 1.5rem;
+}
+
+.formContainerWrapper{
+    display:inline;
+    width:50%;
+}
+
+.formContainer{
+    margin: 7rem 7rem 1rem 2rem;
+}
+
+label{
+    width:7rem;
+    display: inline-block;
+    text-align: right;
+    padding-right: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+
+textarea { 
+    vertical-align: top; 
+}
+
+.inputBox, textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 22rem;
+    border-width: 2px;
+    padding-left: 1rem;
+}
+
+label{
+    line-height: 3rem;
+}
+
+input{
+    line-height: 3rem;
+}
+
+textarea, label:nth-of-type(4){
+    margin-top: 2rem;
+    line-height: 1rem;
+}
+
+::placeholder {
+    padding-left:.5rem;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+
+.submitButtonWrapper{
+    text-align: center;
+}
+
+.submitButton{
+    text-decoration:none;
+    background: #b89f57;
+    color: white;
+    width: 22rem;
+    margin: 2rem 0 0 0;
+    border-style: none;
+}
+
+.submitButton:hover{
+    cursor:pointer;
+    background-color:#3498DB;
+}
+
+.thankYouMessage{ 
+    text-align: center;
+    padding: 5rem 0 1rem 0;
+    margin: 1.5rem;
+}
+
+.thankYouMessageTEXTWrapper{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.thankYouMessageTEXT{
+    display: inline-block;
+    margin: 1rem 0 1rem 0;
+    line-height: 2rem;
+    width: 25rem;
+    text-align: left;
+}
+
+.error{
+    color:red;
+    margin-left: .5rem;
+    font-size: .7rem;
 }
 
 
+@media only screen and (max-device-width : 1200px) {
+    .containerQuote{
+        justify-content: center;
+    }
+
+    label{
+        text-align: left;
+    }
+
+    .contactMessage{
+        margin: 7rem 2rem 1rem 4rem;
+    }
+
+    .formContainer{
+        margin: 7rem 4rem 1rem 2rem;
+    }
+
+    .inputBox, textarea{
+        width: 20rem;
+
+    
+}
+
+@media only screen and (max-device-width : 1150px) {
+    .homepageList li:nth-child(3){
+        background: url("images/check24.png") no-repeat left top;
+    }
+}
 
 
 @media only screen and (max-device-width : 1080px) {
@@ -289,11 +493,11 @@ h3{
         z-index:-1;
     }
 
-    .welcome_message{
-        position:relative;
+    .headerOfBody, .headerOfBodyHome{ /**** this keeps popup nav (from hamburger) below global header ****/
+        position:relative;          /**** this keeps popup nav (from hamburger) below global header ****/
     }
     
-    .hamburger_navigation{ /****************** hamburger menu box ***/
+    .hamburger_navigation{ /** hamburger menu box ***/
         display: none;
         background: #999999; 
         width:250px;
@@ -346,15 +550,28 @@ h3{
         padding-top: 90px;  
     }
 
-    .welcome_message h1{
+    .headerOfBodyHome h1{
         padding: 1rem 3rem 1rem 3rem;
     }
 
 }
 
 @media only screen and (max-device-width : 900px) {
-    .welcome_message h1 {
+    .headerOfBodyHome h1 {
     padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .mainContainer{
+        flex-direction: column;
+    }
+
+    .contactMessageWrapper, .formContainerWrapper{
+        width:100%;
+        text-align: center;
+    }
+
+    .contactMessage, .formContainer{
+        margin: 5rem 5rem 0 5rem;
     }
 }
 
@@ -397,11 +614,25 @@ h3{
     }
 
 
-    .welcome_message h1 {
+    .headerOfBodyHome h1 {
         text-align: center;
         padding: 1rem 0 1rem 0;
         margin: auto;
         width:80%;
+    }
+
+    .containerQuote{
+        margin:.3rem;
+    }
+
+    .boxQuote{
+        width:100%;
+        height:auto;
+        padding: 15px;
+    }
+
+    .homepageList li:nth-child(3){
+        background: url("images/check24.png") no-repeat left center;
     }
 
 }
@@ -424,6 +655,24 @@ h3{
     .imageContainter{
         height:15rem;
     }
+
+    .thankYouMessageTEXT{
+    width: 20rem;
+    }
+
+    .inputBox, textarea{
+        width: 80%;
+        min-width: 17rem;
+    }
+}
+
+
+}
+
+@media only screen and (max-device-width : 530px) {
+    .homepageList li:nth-child(3){
+        background: url("images/check24.png") no-repeat left top;
+    }
 }
 
 @media only screen and (max-device-width : 500px) {
@@ -432,7 +681,7 @@ h3{
     }
 
     .main_area_wrapper{
-        height:8    5rem;
+        height:85rem;
     }
     
     
@@ -450,8 +699,18 @@ h3{
     }
 
     .lower_social_media:hover{
-        background-color:#3498DB
+        background-color:#3498DB;
     }
+
+    .submitButton{
+        width: 70%;
+        min-width: 17rem;
+    }
+
+    .contactMessage, .formContainer{
+        margin: 4rem 2.5rem 0 2.5rem;
+    }
+
 }
 
 
@@ -477,7 +736,7 @@ h3{
         right:15px;
     }
 
-    .hamburger_navigation{ /*************************************** hamburger menu box ***/
+    .hamburger_navigation{ /***************** hamburger menu box ***/
         right: 12px;
     }
 
@@ -485,8 +744,19 @@ h3{
         min-width:315px;
     }
 
+    .thankYouMessageTEXT{
+    width: 15rem;
+    }
 
+
+    .inputBox, textarea{
+    min-width: 10rem;
+    }
 }
+
+
+
+
 
 
 @media only screen and (max-device-width : 330px) {
