@@ -98,11 +98,10 @@ if (isset($_POST["email"]) && $_POST["email"] != ""){
 </head>
 <body onlick="turnOffOnlyHamburger(offhamburger)">
     <header class="header">
-        <div class="header_top">
-            <h4 class="header_top_text">Email: email@email.com</h4>   
-            <h4 class="header_top_text">Tel: 123.456.789</h4>
+    <div class="header_top">
+            <h4 class="header_top_text">Email: dania@daniadaniel.com</h4>   
             <a href="https://www.linkedin.com/in/dania-daniel-39789480/?locale=en_US"><img src="images/linkedin48.png" alt="LinkedIn icon" class="social_media"></a>
-            <a href="https://twitter.com/home"><img src="images/twitter48.png" alt="Twitter icon"   class="social_media"></a> 
+            <a href="https://mobile.twitter.com/_DaniaDaniel"><img src="images/twitter48.png" alt="Twitter icon"   class="social_media"></a> 
         </div>
 
         <div class="header_icon">         
@@ -173,7 +172,7 @@ if (isset($_POST["email"]) && $_POST["email"] != ""){
                 <p>Please also feel free to connect with me on LinkedIn or Twitter.</p>
                 <div class="socialMediaContactContainer">
                     <a href="https://www.linkedin.com/in/dania-daniel-39789480/?locale=en_US"><img src="images/social_mediaContactPageLinkedIn.png" alt="LinkedIn icon" class="social_mediaContactPage"></a>
-                    <a href="https://twitter.com/home"><img src="images/social_mediaContactPageTwitter.png" alt="Twitter icon"  class="social_mediaContactPage"></a> 
+                    <a href="https://mobile.twitter.com/_DaniaDaniel"><img src="images/social_mediaContactPageTwitter.png" alt="Twitter icon"  class="social_mediaContactPage"></a>      
                 </div>
             </div>
         </div>
@@ -205,10 +204,10 @@ if (isset($_POST["email"]) && $_POST["email"] != ""){
 
 </body>
 <footer class="footer">
-        <div>
-            <a href="https://www.linkedin.com/in/dania-daniel-39789480/?locale=en_US"><img src="images/linkedin48.png" alt="LinkedIn icon" class="lower_social_media"></a>
-            <a href="https://twitter.com/home"><img src="images/twitter48.png" alt="Twitter icon"   class="lower_social_media"></a> 
-        </div>
+    <div>
+        <a href="https://www.linkedin.com/in/dania-daniel-39789480/?locale=en_US"><img src="images/linkedin48.png" alt="LinkedIn icon" class="lower_social_media"></a>
+        <a href="https://mobile.twitter.com/_DaniaDaniel"><img src="images/twitter48.png" alt="Twitter icon"   class="lower_social_media"></a> 
+    </div>
     <div class="vertical_footer_align">
         <div class="footer_text">
             <p>Dania Daniel Translations 2020</p>
