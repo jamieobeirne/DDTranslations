@@ -121,7 +121,7 @@ if (isset($_POST["email"]) && $_POST["email"] != ""){
             <li class="navLinks"><a href="testimonials.html">Testimonials</a></li>
             <li class="navLinks"><a href="work.html">Work with me</a></li>
             <li class="currentPage">Contact</li>
-            <li class="navLinks"><a href="blog.html">Blog</a></li>        
+            <li class="navLinks"><a href="https://daniadaniel393.wordpress.com/">Blog</a></li>      
         </ul>
     </header>
     <div class="headerOfBody">
@@ -133,7 +133,7 @@ if (isset($_POST["email"]) && $_POST["email"] != ""){
                     <li class="navLinks"><a href="testimonials.html">Testimonials</a></li>
                     <li class="navLinks"><a href="work.html">Work with me</a></li>
                     <li class="currentPage">Contact</li>
-                    <li class="navLinks"><a href="blog.html">Blog</a></li>
+                    <li class="navLinks"><a href="https://daniadaniel393.wordpress.com/">Blog</a></li>
                 </ul>
             </div>
         </div>
