@@ -140,7 +140,7 @@ h3{
     flex-wrap: wrap; 
 }
 
-.headerOfBodyHome h1 { /*** negative margins for gold ******/
+.headerOfBodyHome h1 { /*negative margins for gold line on homepage */
     text-align: center;
     border-bottom: 4px solid#b89f57;
     padding: 1rem 5rem 1rem 5rem;
@@ -276,7 +276,7 @@ h3{
 
 .contentQuote{
     text-align:center;
-    padding 20px;
+    padding: 20px;
 }
 
 .quotationImage{
@@ -293,7 +293,7 @@ h3{
 }
 
 
-/****** contact form page ********************************//****** contact form page ********************************/
+/****** contact form page ********************************/
 .mainContainer{
     display: flex;
 }
@@ -414,8 +414,8 @@ textarea, label:nth-of-type(4){
     font-size: .7rem;
 }
 
-
-@media only screen and (max-device-width : 1200px) {
+/****************************************************      start of media breaks  **************/
+@media only screen and (max-width : 1200px) {
     .containerQuote{
         justify-content: center;
     }
@@ -433,19 +433,16 @@ textarea, label:nth-of-type(4){
     }
 
     .inputBox, textarea{
-        width: 20rem;
-
-    
+        width: 20rem;  
 }
 
-@media only screen and (max-device-width : 1150px) {
+@media only screen and (max-width : 1150px) {
     .homepageList li:nth-child(3){
         background: url("images/check24.png") no-repeat left top;
     }
 }
 
-
-@media only screen and (max-device-width : 1080px) {
+@media only screen and (max-width : 1080px) {
     .home_header_nav{
         margin-right: 30px;
     }   
@@ -456,7 +453,7 @@ textarea, label:nth-of-type(4){
 }
 
 
-@media only screen and (max-device-width : 1000px) {
+@media only screen and (max-width : 1000px) {
     .home_header_nav{
         visibility: hidden;
         display:none;
@@ -493,8 +490,8 @@ textarea, label:nth-of-type(4){
         z-index:-1;
     }
 
-    .headerOfBody, .headerOfBodyHome{ /**** this keeps popup nav (from hamburger) below global header ****/
-        position:relative;          /**** this keeps popup nav (from hamburger) below global header ****/
+    .headerOfBody, .headerOfBodyHome{ /** this keeps popup nav (from hamburger) below global header ****/
+        position:relative;         
     }
     
     .hamburger_navigation{ /** hamburger menu box ***/
@@ -556,7 +553,7 @@ textarea, label:nth-of-type(4){
 
 }
 
-@media only screen and (max-device-width : 900px) {
+@media only screen and (max-width : 900px) {
     .headerOfBodyHome h1 {
     padding: 1rem 2rem 1rem 2rem;
     }
@@ -576,7 +573,7 @@ textarea, label:nth-of-type(4){
 }
 
 
-@media only screen and (max-device-width : 768px) {
+@media only screen and (max-width : 768px) {
     .header_icon img{
         width: 15rem;
         height: auto;
@@ -638,7 +635,7 @@ textarea, label:nth-of-type(4){
 }
 
 
-@media only screen and (max-device-width : 600px) {
+@media only screen and (max-width : 600px) {
     .main_area_wrapper{
         height:95rem;
     }
@@ -669,13 +666,13 @@ textarea, label:nth-of-type(4){
 
 }
 
-@media only screen and (max-device-width : 530px) {
+@media only screen and (max-width : 530px) {
     .homepageList li:nth-child(3){
         background: url("images/check24.png") no-repeat left top;
     }
 }
 
-@media only screen and (max-device-width : 500px) {
+@media only screen and (max-width : 500px) {
     .social_media{
         visibility: hidden;
     }
@@ -714,7 +711,7 @@ textarea, label:nth-of-type(4){
 }
 
 
-@media only screen and (max-device-width : 435px) {
+@media only screen and (max-width : 435px) {
     .main_area_wrapper{
         height:85rem;
     }
@@ -755,11 +752,7 @@ textarea, label:nth-of-type(4){
 }
 
 
-
-
-
-
-@media only screen and (max-device-width : 330px) {
+@media only screen and (max-width : 330px) {
     .header_top_text:nth-child(2){
         display:none;
     }
