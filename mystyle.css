@@ -1,12 +1,12 @@
 *{ 
-    font-size: 16px;
+    font-size: 18px;
     font-family: Georgia, Times, "Times New Roman", serif;
     padding:0;
     margin:0;
 }
 
 
-h2, h3, h4, p, li{
+h2, h4, p, li{
     font-family: Arial, Helvetica, sans-serif;
     font-weight:normal;
 }
@@ -16,8 +16,10 @@ h1{
 }
 
 h3{
-    color:#D7B65C;
-    font-size: 2.5em;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:#b89f57;
+    font-size: 2.3em;
+    font-weight:normal;
 }
 
 /* main header ********************************/
@@ -36,7 +38,7 @@ h3{
     
 .header_top_text{
     display:inline-block;
-    margin: 1rem 2rem 0 1.5rem;
+    margin: 1rem 2rem 0 2.1rem;
 }
     
 .social_media{
@@ -154,7 +156,7 @@ h3{
 }
 
 .main_area_wrapper{
-    height:60rem;
+    height:67rem;
 }
 
 .left_main_area{
@@ -191,29 +193,46 @@ h3{
 
 .right_main_area_text p{
     line-height: 2;
+    margin-bottom: 2rem;
 }
 
 .homepageList, .homepageList2{
     padding-left:4rem;
     line-height: 2;
+    margin-bottom: 1.5rem;
 }
 
 
-.homepageList li, .homepageList2 li{
+.homepageList li{
     list-style: none;
     background: url("images/check24.png") no-repeat left center; /*sets check mark for ul list bullets */ 
     vertical-align: middle;
-    padding: 0 0 0 2rem;
-    margin:0;
+    padding: 0 0 0 2.2rem;
+    margin:0.7rem 0;
+}
+
+.homepageList2 li{
+    padding-top:1rem;
+    padding-left:.8rem;
+    margin-left:1.5rem;
+    margin-right: 3.2rem;
+}
+
+.indexMessageTitle{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:#3498DB;
+    text-align: center;
+    padding-top: 1.9rem;
+    padding-bottom: 1.5rem;
 }
 
 
 .aboutButtonWrapper{
     background: #b89f57;
-    margin-top: 3rem;
     height: 3rem;
     width: 9rem;
     position: relative;
+    margin: 5rem auto 2rem auto;
 }
 
 .aboutButton{
@@ -224,6 +243,7 @@ h3{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80px;
+    text-align: center;
 }
 
 .aboutButton:hover{
@@ -239,7 +259,118 @@ h3{
     visibility: hidden;
     display:none;
 }
-/****** end of homepage *************************/
+
+
+
+/*services page *************************************/
+.maingBorderServices{
+    border: 2px solid #999999;
+    margin:3rem;
+    border-radius: 1rem;
+
+}
+
+.mainWrapperServices{
+    padding: 4rem 6rem;
+}
+
+.servicesTitle{
+    color: #3498DB;
+    text-align: center;
+}
+
+.subTitlesServices{
+    text-align: center;
+    margin:4rem auto 0 auto;
+    background-color: #3498DB;
+    line-height: 2.5rem;
+    color:#FFFFFF;
+    border-radius: .5rem;
+    width:10rem;
+}
+
+.firstParagraphServices{
+    margin: 1rem 0;
+}
+
+.lastParagraphServices{
+    padding: 3rem 2rem;
+    background:#3498DB;
+    color:#FFFFFF;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    line-height: 2rem;
+}
+
+/*about me page *************************************/
+.mainWrapperAboutMe{
+    margin:3rem 6rem 4rem 6rem;
+}
+
+.mainWrapperAboutMe p{
+    margin-top:2rem;
+    line-height: 1.4;
+}
+
+.aboutPageChangesWrapper{
+    width:15rem;
+}
+
+.aboutPageChanges{
+    width:13rem;
+}
+
+.mainQualifications{
+    height:12rem;
+    background-color:#b89f57;
+    padding-top: 1rem;
+}
+
+.mainQualifications .qualificationsWrapper h3{
+    color:#FFFFFF;
+}
+
+.mainQualifications .aboutListUL li{
+    color:#FFFFFF;
+}
+
+.mainQualifications2{
+    height:14rem;
+}
+
+.qualificationsWrapper{
+    display:flex;
+    position:relative;
+    margin: 4rem 6rem;
+    height:auto;
+}
+
+.aboutListUL{
+    position:absolute;
+    margin-left: 10rem;
+    left: 21.5rem;
+    font-size: 1.1rem;
+}
+
+.aboutListUL li{
+    font-size: 1.2rem;
+    padding-top: .7rem;
+}
+
+.aboutListUL li:nth-of-type(2){
+    padding-top: 1.7rem;
+}
+
+
+.aboutImageWrapper{
+    margin-right: 4rem;
+    text-align: right;
+}
+
+.aboutImages{
+    margin: 0 4em;
+}
+
 
 
 /****** testimonial page ************************/
@@ -267,7 +398,7 @@ h3{
     text-align: center;
     justify-content: center;
     width: 420px;
-    height:520px;
+    height:660px;
     margin:20px;
     background:#D9D9D9;
     padding:2rem;
@@ -308,7 +439,12 @@ h3{
 }
 
 .contactMessage p{
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1.7rem 0 1.7rem 0;
+}
+
+.contactMessageTitle{
+    color: #b89f57;
+    margin-bottom: 3rem;
 }
 
 .socialMediaContactContainer{
@@ -323,6 +459,7 @@ h3{
 .formContainerWrapper{
     display:inline;
     width:50%;
+    padding-top: 3.7rem;
 }
 
 .formContainer{
@@ -415,6 +552,17 @@ textarea, label:nth-of-type(4){
 }
 
 /****************************************************      start of media breaks  **************/
+
+@media only screen and (max-width : 1400px) {
+    .main_area_wrapper{
+        height:82rem;
+    }
+
+    .mainQualifications2{
+        height:15rem;
+    }    
+}
+
 @media only screen and (max-width : 1200px) {
     .containerQuote{
         justify-content: center;
@@ -434,11 +582,28 @@ textarea, label:nth-of-type(4){
 
     .inputBox, textarea{
         width: 20rem;  
-}
+    }
+    .mainWrapperServices {
+        padding: 4rem;
+    }
+
+    .maingBorderServices {
+        margin: 4rem;
+    }
+
+    .qualificationsWrapper{
+        margin: 4rem 3rem;
+    }
+    
 
 @media only screen and (max-width : 1150px) {
     .homepageList li:nth-child(3){
         background: url("images/check24.png") no-repeat left top;
+    }
+
+    .main_area_wrapper{
+        height:87rem;
+    
     }
 }
 
@@ -449,8 +614,17 @@ textarea, label:nth-of-type(4){
     
     .home_header_nav li{
         font-size: .9rem;
-    }   
-}
+    }
+
+    .main_area_wrapper{
+        height:95rem;
+    }
+
+    .mainQualifications2{
+        height:18rem;
+    }
+
+    
 
 
 @media only screen and (max-width : 1000px) {
@@ -531,9 +705,6 @@ textarea, label:nth-of-type(4){
         cursor: pointer;
     }
 
-    .main_area_wrapper{
-        height:55rem;
-    }
 
     .right_main_area_text{
         padding: 2rem;
@@ -551,6 +722,15 @@ textarea, label:nth-of-type(4){
         padding: 1rem 3rem 1rem 3rem;
     }
 
+    .aboutImages {
+        margin: 1.5rem 1em;
+    }
+    
+    .aboutImageWrapper{
+        margin:0;
+        padding:0;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width : 900px) {
@@ -565,13 +745,53 @@ textarea, label:nth-of-type(4){
     .contactMessageWrapper, .formContainerWrapper{
         width:100%;
         text-align: center;
+        padding-top: 0;
     }
 
     .contactMessage, .formContainer{
         margin: 5rem 5rem 0 5rem;
     }
+
+    .homepageList2 li {
+        margin-right: 1.5rem;
+    }
+
+    .main_area_wrapper{
+        height:90rem;
+    }
+
+    .mainWrapperServices {
+        padding: 4rem 3rem;
+    }
+
+    .maingBorderServices {
+        margin: 3rem;
+    }
+
+    .qualificationsWrapper{
+        display:block;
+        position:static;
+    }
+
+    .aboutListUL{
+        position:static;
+        margin-top:1rem;
+    }
+ 
+
 }
 
+@media only screen and (max-width : 860px) {
+    .main_area_wrapper{
+        height:100rem;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .main_area_wrapper{
+        height:150rem;
+    }
+}
 
 @media only screen and (max-width : 768px) {
     .header_icon img{
@@ -607,9 +827,8 @@ textarea, label:nth-of-type(4){
     }
     
     .main_area_wrapper{
-        height:100rem;
+        height:115rem;
     }
-
 
     .headerOfBodyHome h1 {
         text-align: center;
@@ -632,13 +851,33 @@ textarea, label:nth-of-type(4){
         background: url("images/check24.png") no-repeat left center;
     }
 
+    .homepageList2 li {
+        margin-right: 2rem;
+    }
+
+    .mainWrapperServices {
+        padding: 4rem 2rem;
+    }
+
+    .maingBorderServices {
+        margin: 2rem;
+    }
+
+    .mainWrapperAboutMe{
+        margin: 3rem 2rem 4rem 2rem;
+    }
+
+    .qualificationsWrapper{
+        margin: 4rem 2rem;
+    }
+}
+@media only screen and (max-width : 650px) {
+    .mainQualifications2{
+        height:25rem;
+    } 
 }
 
-
 @media only screen and (max-width : 600px) {
-    .main_area_wrapper{
-        height:95rem;
-    }
 
     .footer_text{
         padding-right: 10px; 
@@ -676,10 +915,6 @@ textarea, label:nth-of-type(4){
     .social_media{
         visibility: hidden;
     }
-
-    .main_area_wrapper{
-        height:85rem;
-    }
     
     
     .footer_text{
@@ -708,12 +943,44 @@ textarea, label:nth-of-type(4){
         margin: 4rem 2.5rem 0 2.5rem;
     }
 
+    .homepageList2 li {
+        margin-right: 1rem;
+    }
+
+
+    .mainWrapperServices {
+        padding: 4rem 1rem;
+    }
+
+    .maingBorderServices {
+        margin: 1.5rem;
+    }
+
+    .qualificationsWrapper{
+        position:relative;
+    }
+    .aboutListUL li{
+        position:absolute;
+        left:5rem;
+        margin-right: 1rem;
+    } 
+
+    .aboutListUL li:nth-of-type(2){
+        top:10rem;
+    } 
+
+    .mainQualifications {
+        height: 15rem;
+    }
+
+
+
 }
 
 
 @media only screen and (max-width : 435px) {
     .main_area_wrapper{
-        height:85rem;
+        height:125rem;
     }
     
     .header_icon{
@@ -749,14 +1016,73 @@ textarea, label:nth-of-type(4){
     .inputBox, textarea{
     min-width: 10rem;
     }
+
 }
+
+@media only screen and (max-width : 400px) {
+    .main_area_wrapper{
+        height:130rem;
+    }
+}
+
+@media only screen and (max-width : 385px) {
+    .main_area_wrapper{
+        height:135rem;
+    }
+
+    .aboutListUL li {
+        left:4rem;
+    }
+}
+    
+    
+
+@media only screen and (max-width : 370px) {
+
+    .main_area_wrapper{
+        height:145rem;
+    }
+
+    .header_icon img{
+        width: 13rem;
+    }
+
+    .mainQualifications2{
+        height:30rem;
+    }
+}
+
+
+@media only screen and (max-width : 360px) {
+    .contactMessageTitle{
+        font-size: 2.5rem;
+    }
+
+    .main_area_wrapper{
+        height:155rem;
+    }
+}
+
+
+@media only screen and (max-width : 340px) {
+    .main_area_wrapper{
+        height:160rem;
+    }
+
+    .header_icon img{
+        width: 12rem;
+    }
+}
+
 
 
 @media only screen and (max-width : 330px) {
     .header_top_text:nth-child(2){
         display:none;
     }
-
+    .main_area_wrapper{
+        height:170rem;
+    }
 }
 
 
