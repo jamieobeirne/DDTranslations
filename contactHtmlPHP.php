@@ -124,7 +124,7 @@ if (isset($_POST["email"]) && $_POST["email"] != "") {
             <li class="navLinks"><a href="about.html">About</a></li>
             <li class="navLinks"><a href="testimonials.html">Testimonials</a></li>
             <li class="currentPage">Contact</li>
-            <li class="navLinks"><a href="daniadanieltranslations.wordpress.com">Blog</a></li>
+            <li class="navLinks"><a href="https://daniadanieltranslations.wordpress.com/">Blog</a></li>
         </ul>
     </header>
     <div class="headerOfBody">
@@ -136,7 +136,7 @@ if (isset($_POST["email"]) && $_POST["email"] != "") {
                     <li class="navLinks"><a href="about.html">About</a></li>
                     <li class="navLinks"><a href="testimonials.html">Testimonials</a></li>
                     <li class="currentPage">Contact</li>
-                    <li class="navLinks"><a href="https://daniadaniel393.wordpress.com/">Blog</a></li>
+                    <li class="navLinks"><a href="https://daniadanieltranslations.wordpress.com/">Blog</a></li>
                 </ul>
             </div>
         </div>
