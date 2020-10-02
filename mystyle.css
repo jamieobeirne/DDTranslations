@@ -560,7 +560,15 @@ textarea, label:nth-of-type(4){
 
     .mainQualifications2{
         height:15rem;
-    }    
+    }  
+    
+    .homepageList2{
+        padding-left: 1rem;
+    }
+
+    .homepageList2 li{
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -617,7 +625,7 @@ textarea, label:nth-of-type(4){
     }
 
     .main_area_wrapper{
-        height:95rem;
+        height:75rem;
     }
 
     .mainQualifications2{
@@ -757,7 +765,7 @@ textarea, label:nth-of-type(4){
     }
 
     .main_area_wrapper{
-        height:90rem;
+        height:80rem;
     }
 
     .mainWrapperServices {
@@ -783,13 +791,7 @@ textarea, label:nth-of-type(4){
 
 @media only screen and (max-width : 860px) {
     .main_area_wrapper{
-        height:100rem;
-    }
-}
-
-@media only screen and (max-width : 800px) {
-    .main_area_wrapper{
-        height:150rem;
+        height:90rem;
     }
 }
 
@@ -827,7 +829,7 @@ textarea, label:nth-of-type(4){
     }
     
     .main_area_wrapper{
-        height:115rem;
+        height:105rem;
     }
 
     .headerOfBodyHome h1 {
@@ -900,10 +902,19 @@ textarea, label:nth-of-type(4){
         width: 80%;
         min-width: 17rem;
     }
+
+    .homepageList2{
+        padding-left:1rem;
+    } 
+
+    .homepageList2 li{
+        padding:0;
+        margin:0;
+    } 
+}
 }
 
 
-}
 
 @media only screen and (max-width : 530px) {
     .homepageList li:nth-child(3){
@@ -980,7 +991,7 @@ textarea, label:nth-of-type(4){
 
 @media only screen and (max-width : 435px) {
     .main_area_wrapper{
-        height:125rem;
+        height:120rem;
     }
     
     .header_icon{
@@ -1021,15 +1032,11 @@ textarea, label:nth-of-type(4){
 
 @media only screen and (max-width : 400px) {
     .main_area_wrapper{
-        height:130rem;
+        height:110rem;
     }
 }
 
 @media only screen and (max-width : 385px) {
-    .main_area_wrapper{
-        height:135rem;
-    }
-
     .aboutListUL li {
         left:4rem;
     }
@@ -1039,16 +1046,16 @@ textarea, label:nth-of-type(4){
 
 @media only screen and (max-width : 370px) {
 
-    .main_area_wrapper{
-        height:145rem;
-    }
-
     .header_icon img{
         width: 13rem;
     }
 
     .mainQualifications2{
         height:30rem;
+    }
+
+    .main_area_wrapper{
+        height:115rem;
     }
 }
 
@@ -1057,17 +1064,10 @@ textarea, label:nth-of-type(4){
     .contactMessageTitle{
         font-size: 2.5rem;
     }
-
-    .main_area_wrapper{
-        height:155rem;
-    }
 }
 
 
 @media only screen and (max-width : 340px) {
-    .main_area_wrapper{
-        height:160rem;
-    }
 
     .header_icon img{
         width: 12rem;
@@ -1081,7 +1081,7 @@ textarea, label:nth-of-type(4){
         display:none;
     }
     .main_area_wrapper{
-        height:170rem;
+        height:120rem;
     }
 }
 
